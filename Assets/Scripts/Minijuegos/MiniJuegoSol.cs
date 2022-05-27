@@ -4,8 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class MiniJuegoSol : MonoBehaviour
 {
-    public int solNecesario = 10;
-    public int sol = 0;
+    public float solNecesario = 10;
+    public float sol = 0;
     public Image vidaImage;
     public bool findeljuego = false;
     Vector2 touchIncial;
@@ -19,7 +19,7 @@ public class MiniJuegoSol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        vidaImage.fillAmount = sol / solNecesario;
+        vidaImage.fillAmount = (float)sol / (float)solNecesario;
         if (sol<0)
         {
             sol = 0;
@@ -47,6 +47,7 @@ public class MiniJuegoSol : MonoBehaviour
         if (sol >= solNecesario)
         {
             findeljuego = true;
+            GetComponent<CambiarScena>().CargarScena("Prueba1");
         }
     }
 }

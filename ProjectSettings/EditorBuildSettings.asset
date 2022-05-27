@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: ca092b9a632125e4e873f80a7eecf3d8
+  - enabled: 1
+    path: Assets/Scenes/Prueba1.unity
+    guid: 7b36412c66e88ab408ca7b22c0465c5c
+  - enabled: 1
     path: Assets/Scenes/MiniJuegoSol.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Minijuego_MacetaTierra.unity
+    guid: 2e3aa7b19f0fe604399dd497d1ff5a3d
   m_configObjects: {}
