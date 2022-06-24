@@ -67,7 +67,7 @@ public class Minijuego_Tierra : MonoBehaviour
         if (tierra >= TierraVictoria)
         {
             findeljuego = true;
-            GetComponent<CambiarScena>().CargarScena("Prueba1");
+            GetComponent<CambiarScena>().CargarScena("Recompensa3");
         }
     }
 }

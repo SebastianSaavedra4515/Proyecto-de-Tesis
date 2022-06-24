@@ -5,7 +5,8 @@ using UnityEngine;
 public class Camino : MonoBehaviour
 {
     public int identificador;
-    // Start is called before the first frame update
+    public Casilla casilla;  
+    // Start is called before the first frame updatessss
     void Start()
     {
         

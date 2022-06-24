@@ -47,7 +47,7 @@ public class MiniJuegoSol : MonoBehaviour
         if (sol >= solNecesario)
         {
             findeljuego = true;
-            GetComponent<CambiarScena>().CargarScena("Prueba1");
+            GetComponent<CambiarScena>().CargarScena("Recompensa4");
         }
     }
 }

@@ -52,7 +52,7 @@ public class Juego_Corte : MonoBehaviour
         }
         if ((int)(Timemax - time) <= 0)
         {
-            GetComponent<CambiarScena>().CargarScena("Prueba1");
+            GetComponent<CambiarScena>().CargarScena("Recompensa2");
         }
         if (vida <= 0)
         {

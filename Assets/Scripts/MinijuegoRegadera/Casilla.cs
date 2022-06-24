@@ -13,7 +13,7 @@ public class Casilla : MonoBehaviour
     [SerializeField] List<Toggle> ToglesCaminos = new List<Toggle>();
     public bool vacio = true;
     [SerializeField] Minijuegoregadera jugador;
-    
+    public bool conectado =false;
     void Start()
     {
         

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - gusanos
   - basurero
+  - conexion
+  - inicio
   layers:
   - Default
   - TransparentFX

@@ -10,6 +10,7 @@ public class Minijuegoregadera : MonoBehaviour
     public int caminosCorrectos;
     [SerializeField] List<Toggle> ToglesCaminos = new List<Toggle>();
     public Text a;
+    public bool finJuego=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,9 +22,9 @@ public class Minijuegoregadera : MonoBehaviour
     {
         a.text = "" + caminosCorrectos;
 
-        if (caminosCorrectos >= caminosCorrectosNecesario)
+        if (finJuego==true)
         {
-            SceneManager.LoadScene("Prueba1");
+            SceneManager.LoadScene("Recompensa1");
         }
     }
 

@@ -220,6 +220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 1211840001}
 --- !u!1001 &23254572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -324,6 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 2020269939}
 --- !u!1001 &28008340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -423,6 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 981541558}
 --- !u!1 &133595789
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,6 +608,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 981541558}
 --- !u!1001 &145516759
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -709,6 +713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 1965533107}
 --- !u!1 &161146613
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,6 +888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 1965533107}
 --- !u!1 &173545602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 2098204055}
 --- !u!1 &206911492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,9 +1112,11 @@ GameObject:
   m_Component:
   - component: {fileID: 206911494}
   - component: {fileID: 206911493}
+  - component: {fileID: 206911496}
+  - component: {fileID: 206911495}
   m_Layer: 0
   m_Name: Tileregadera_0
-  m_TagString: Untagged
+  m_TagString: inicio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1177,6 +1186,122 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &206911495
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206911492}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.30207646, y: -0.05093012}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.058449477, y: 0.22040261}
+  m_EdgeRadius: 0
+--- !u!114 &206911496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206911492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14ab63b7bc356dc4b96532b0674eda98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &207416134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 207416135}
+  - component: {fileID: 207416137}
+  - component: {fileID: 207416136}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &207416135
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207416134}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.8875, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 450362097}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &207416136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207416134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Reset
+--- !u!222 &207416137
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207416134}
+  m_CullTransparentMesh: 0
 --- !u!1001 &223330191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1276,6 +1401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 609228434}
 --- !u!1001 &234481930
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1380,6 +1506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 519091786}
 --- !u!1001 &265962338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1479,6 +1606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 1211840001}
 --- !u!1001 &288688116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1583,6 +1711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 1950322730}
 --- !u!1 &299231120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1757,6 +1886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 789389401}
 --- !u!1001 &327762321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1856,6 +1986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 432767737}
 --- !u!1 &328181525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1907,7 +2038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 2
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -1926,6 +2057,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &328181528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2024,7 +2156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 1
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -2043,6 +2175,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &344601561
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2420,6 +2553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 789389401}
 --- !u!1 &394643496
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,7 +2871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 99
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -2756,6 +2890,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &432767738
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2803,6 +2938,136 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &450362096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 450362097}
+  - component: {fileID: 450362100}
+  - component: {fileID: 450362099}
+  - component: {fileID: 450362098}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &450362097
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450362096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.82280004, y: 2.992, z: 2.992}
+  m_Children:
+  - {fileID: 207416135}
+  m_Father: {fileID: 647938851}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -492, y: 288}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &450362098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450362096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 450362099}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 963194229}
+        m_MethodName: CargarScena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Minijuego_Regadera
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &450362099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450362096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &450362100
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450362096}
+  m_CullTransparentMesh: 0
 --- !u!1001 &452304720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2907,6 +3172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 432767737}
 --- !u!1001 &476843975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3011,6 +3277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 328181527}
 --- !u!1001 &480113796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3110,6 +3377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 580331640}
 --- !u!1 &505097209
 GameObject:
   m_ObjectHideFlags: 0
@@ -3359,6 +3627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 344601560}
 --- !u!1 &519091784
 GameObject:
   m_ObjectHideFlags: 0
@@ -3429,6 +3698,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &519091787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3580,6 +3850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 2142474678}
 --- !u!1001 &536544729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3679,6 +3950,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 789389401}
 --- !u!1 &548235630
 GameObject:
   m_ObjectHideFlags: 0
@@ -3775,7 +4047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 99
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -3794,6 +4066,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &580331641
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3945,6 +4218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 789389401}
 --- !u!1 &593092078
 GameObject:
   m_ObjectHideFlags: 0
@@ -4070,7 +4344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 1
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -4089,6 +4363,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &609228435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4235,6 +4510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 877902197}
 --- !u!1001 &620764470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4334,6 +4610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 432767737}
 --- !u!1 &626099937
 GameObject:
   m_ObjectHideFlags: 0
@@ -4351,7 +4628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &626099938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4582,6 +4859,7 @@ RectTransform:
   - {fileID: 1403534736}
   - {fileID: 407176522}
   - {fileID: 173545603}
+  - {fileID: 450362097}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4689,6 +4967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 328181527}
 --- !u!1001 &691345673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4788,6 +5067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 1211840001}
 --- !u!1 &697243903
 GameObject:
   m_ObjectHideFlags: 0
@@ -5053,6 +5333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 877902197}
 --- !u!1 &757624158
 GameObject:
   m_ObjectHideFlags: 0
@@ -5408,7 +5689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 2
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -5427,6 +5708,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &789389402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5647,6 +5929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 580331640}
 --- !u!1001 &801424649
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5746,6 +6029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 1965533107}
 --- !u!1001 &802979036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5845,6 +6129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 2020269939}
 --- !u!1001 &840349381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5944,6 +6229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 519091786}
 --- !u!1 &847422272
 GameObject:
   m_ObjectHideFlags: 0
@@ -6156,6 +6442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 1965533107}
 --- !u!1001 &869014666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6260,6 +6547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 344601560}
 --- !u!1 &877902195
 GameObject:
   m_ObjectHideFlags: 0
@@ -6311,7 +6599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 9999
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -6330,6 +6618,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &877902198
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6476,6 +6765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 877902197}
 --- !u!1001 &895091988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6580,6 +6870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 877902197}
 --- !u!1 &896912143
 GameObject:
   m_ObjectHideFlags: 0
@@ -6836,6 +7127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 981541558}
 --- !u!1001 &952451111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6935,6 +7227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 2020269939}
 --- !u!1 &955956822
 GameObject:
   m_ObjectHideFlags: 0
@@ -7114,6 +7407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 1211840001}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -7234,6 +7528,7 @@ MonoBehaviour:
   - {fileID: 407176523}
   - {fileID: 173545604}
   a: {fileID: 626099938}
+  finJuego: 0
 --- !u!1001 &966314132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7333,6 +7628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 328181527}
 --- !u!1 &981541556
 GameObject:
   m_ObjectHideFlags: 0
@@ -7384,7 +7680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 999
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -7403,6 +7699,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &981541559
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7549,6 +7846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 1965533107}
 --- !u!1001 &989854232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7648,6 +7946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 2142474678}
 --- !u!1001 &1017480529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7752,6 +8051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 2098204055}
 --- !u!1001 &1043058025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7851,6 +8151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 344601560}
 --- !u!1001 &1069487036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7950,6 +8251,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 981541558}
 --- !u!1 &1073904664
 GameObject:
   m_ObjectHideFlags: 0
@@ -7959,6 +8261,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1073904665}
+  - component: {fileID: 1073904667}
+  - component: {fileID: 1073904666}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -7982,6 +8286,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073904666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073904664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803317525f6c22e4084e2cd21ebc2122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  juego: {fileID: 963194230}
+--- !u!61 &1073904667
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073904664}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.0288165, y: 1.0683868}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.3843923, y: 1.1017509}
+  m_EdgeRadius: 0
 --- !u!1 &1081720080
 GameObject:
   m_ObjectHideFlags: 0
@@ -8156,6 +8499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 2142474678}
 --- !u!1 &1135053559
 GameObject:
   m_ObjectHideFlags: 0
@@ -8368,6 +8712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 2020269939}
 --- !u!1 &1211839999
 GameObject:
   m_ObjectHideFlags: 0
@@ -8419,7 +8764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 3
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -8438,6 +8783,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &1211840002
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8584,6 +8930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 877902197}
 --- !u!1001 &1228711761
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8683,6 +9030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 2098204055}
 --- !u!1001 &1230898484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8782,6 +9130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 432767737}
 --- !u!1001 &1256244876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8881,6 +9230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 2098204055}
 --- !u!1001 &1353086622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8980,6 +9330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 2142474678}
 --- !u!1001 &1364161113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9079,6 +9430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 1950322730}
 --- !u!1001 &1372641413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9178,6 +9530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 580331640}
 --- !u!1 &1403534735
 GameObject:
   m_ObjectHideFlags: 0
@@ -9390,6 +9743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 1950322730}
 --- !u!1 &1432097279
 GameObject:
   m_ObjectHideFlags: 0
@@ -9589,6 +9943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 328181527}
 --- !u!1001 &1441508419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9688,6 +10043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 609228434}
 --- !u!1001 &1452224341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9787,6 +10143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 2098204055}
 --- !u!1001 &1453265279
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9886,6 +10243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 519091786}
 --- !u!1 &1515089543
 GameObject:
   m_ObjectHideFlags: 0
@@ -10138,6 +10496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 344601560}
 --- !u!1001 &1547649456
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10237,6 +10596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 580331640}
 --- !u!1001 &1547800304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10336,6 +10696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 609228434}
 --- !u!1 &1566195191
 GameObject:
   m_ObjectHideFlags: 0
@@ -10509,6 +10870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 432767737}
 --- !u!1001 &1581465531
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10608,6 +10970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 344601560}
 --- !u!1001 &1583447187
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10707,6 +11070,89 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 877902197}
+--- !u!1 &1597265997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1597265999}
+  - component: {fileID: 1597265998}
+  m_Layer: 0
+  m_Name: Plantas _1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1597265998
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597265997}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7842518998741558570, guid: 6d2299913f1166c4a8068cb3e9499498,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.14, y: 3.03}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1597265999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597265997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.72, y: -2.19, z: 0}
+  m_LocalScale: {x: 1.1941, y: 1.1941, z: 1.1941}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1604795422
 GameObject:
   m_ObjectHideFlags: 0
@@ -10959,6 +11405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 981541558}
 --- !u!1 &1649835102
 GameObject:
   m_ObjectHideFlags: 0
@@ -11132,6 +11579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 1211840001}
 --- !u!1 &1660112432
 GameObject:
   m_ObjectHideFlags: 0
@@ -11344,6 +11792,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 2142474678}
 --- !u!1001 &1703949824
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11443,6 +11892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 981541558}
 --- !u!1001 &1704172700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11542,6 +11992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 432767737}
 --- !u!1001 &1719423968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11641,6 +12092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 2020269939}
 --- !u!1001 &1737537662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11740,6 +12192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 2098204055}
 --- !u!1001 &1775520386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11839,6 +12292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 1950322730}
 --- !u!1001 &1789083479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11938,6 +12392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 580331640}
 --- !u!1001 &1801123884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12042,6 +12497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 580331640}
 --- !u!1001 &1814713563
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12146,6 +12602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 1
+  casilla: {fileID: 609228434}
 --- !u!1001 &1819651858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12245,6 +12702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 1965533107}
 --- !u!1001 &1841364221
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12344,6 +12802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 609228434}
 --- !u!1001 &1875343216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12443,6 +12902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 1211840001}
 --- !u!1001 &1890208638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12542,6 +13002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 2142474678}
 --- !u!1001 &1897901993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12641,6 +13102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 1950322730}
 --- !u!1001 &1914585875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12740,6 +13202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 328181527}
 --- !u!1001 &1918507596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12839,6 +13302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 519091786}
 --- !u!1 &1929309225
 GameObject:
   m_ObjectHideFlags: 0
@@ -12964,7 +13428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 999
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -12983,6 +13447,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &1950322731
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13129,6 +13594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 789389401}
 --- !u!1 &1965533105
 GameObject:
   m_ObjectHideFlags: 0
@@ -13199,6 +13665,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &1965533108
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13345,6 +13812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 609228434}
 --- !u!1001 &1976170611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13444,6 +13912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 3
+  casilla: {fileID: 1950322730}
 --- !u!1001 &1999789465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13543,6 +14012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 519091786}
 --- !u!1001 &2015863820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13642,6 +14112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 5
+  casilla: {fileID: 519091786}
 --- !u!1 &2020269938
 GameObject:
   m_ObjectHideFlags: 0
@@ -13673,7 +14144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 4
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -13692,6 +14163,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &2020269940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13858,6 +14330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 2
+  casilla: {fileID: 2020269939}
 --- !u!1001 &2041157508
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13957,6 +14430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 789389401}
 --- !u!1001 &2095936188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14056,6 +14530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 4
+  casilla: {fileID: 344601560}
 --- !u!1 &2098204053
 GameObject:
   m_ObjectHideFlags: 0
@@ -14107,7 +14582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 2
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -14126,6 +14601,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &2098204056
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14272,6 +14748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   identificador: 0
+  casilla: {fileID: 328181527}
 --- !u!1 &2142474676
 GameObject:
   m_ObjectHideFlags: 0
@@ -14323,7 +14800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28ada2962739abd4394e702d90ec63ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  caminoCorrecto: 1
+  caminoCorrecto: 0
   caminocolocada: -1
   Win: 0
   caminos:
@@ -14342,6 +14819,7 @@ MonoBehaviour:
   - {fileID: 173545604}
   vacio: 1
   jugador: {fileID: 963194230}
+  conectado: 0
 --- !u!61 &2142474679
 BoxCollider2D:
   m_ObjectHideFlags: 0

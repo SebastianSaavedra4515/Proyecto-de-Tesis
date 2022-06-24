@@ -23,4 +23,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Minijuego_Regadera.unity
     guid: a8c8123c42334734b9b2e4d7662e4a54
+  - enabled: 1
+    path: Assets/Scenes/Recompensa1.unity
+    guid: 93638ae00756a484f866eba39f15271d
+  - enabled: 1
+    path: Assets/Scenes/Recompensa3.unity
+    guid: 659e02d095df72d4689b98e40b8be84f
+  - enabled: 1
+    path: Assets/Scenes/Recompensa2.unity
+    guid: 2892de8f25fefcc4ba1b6f826cf59771
+  - enabled: 1
+    path: Assets/Scenes/Recompensa4.unity
+    guid: 8a1973381349f494cb0e31399799e46a
   m_configObjects: {}
